@@ -1,0 +1,28 @@
+*{
+    margin : 0;
+    padding: 0;
+}
+
+
+
+h1{
+    color : green;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.this{
+    margin-left: 620px;
+    margin-top: 23px;
+    
+}
+
+label{
+    font-size: 30px;
+}
+
+input{
+    height: 30px;
+    width: 200px;
+}

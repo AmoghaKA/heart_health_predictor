@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Heart Health Detector</h1>
+
+    <form action="/submit" method="POST">
+        <label for="age" class="this">Enter age</label>
+        <br>
+        <input type="number" id="age" class="this" name="age">
+        <br>
+        <br>
+        <label for="gender" class="this">Enter gender</label>
+        <br>
+        <select id="gender" name="box1" class="this" name="gender">
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+        </select>
+        <br>
+        <br>
+        <label for="heigth" class="this">Enter Height (m)</label>
+        <input type="number" step="any" id="heigth" class="this" name="heigth">
+        <br>
+        <br>
+        <label for="weigth" class="this">Enter Weigth (kg)</label>
+        <input type="number" id="Weigth" class="this" name="weigth">
+        <br>
+        <br>
+        <label for="systolic" class="this">Enter Systolic value</label>
+        <input type="number" id="systolic" class="this" name="systolic">
+        <br>
+        <br>
+        <label for="diastolic" class="this">Enter Diastolic value</label>
+        <input type="number" id="diastolic" class="this" name="diastolic">
+        <br>
+        <br>
+        <label for="cholestrol" class="this">Enter cholestrol Level</label>
+        <br>
+        <select id="cholestrol" name="cholestrol" class="this">
+            <option value="1">Normal</option>
+            <option value="2">Borderline High</option>
+            <option value="3">High</option>
+        </select>
+        <br>
+        <br>
+        <label for="smoking" class="this">Smoking Habit</label>
+        <br>
+        <select id="smoking" name="smoking" class="this">
+            <option value="1">Yes</option>
+            <option value="2">No</option>
+            
+        </select>
+        <br>
+        <br>
+        <label for="exercise" class="this">Exercise Frequency</label>
+        <br>
+        <select id="exercise" name="exercise" class="this">
+            <option value="1">Daily</option>
+            <option value="2">Weekly</option>
+            <option value="3">Rare</option>
+            <option value="4">Never</option>
+        </select>
+        <br>
+        <br>
+        <label for="history" class="this">Family History of Heart Disease</label>
+        <br>
+        <select id="history" name="history" class="this">
+            <option value="1">Yes</option>
+            <option value="2">No</option>
+            
+        </select>
+        <br>
+        <br>
+        <input type="submit" class="this" value="Submit">
+    </form>
+</body>
+</html>
