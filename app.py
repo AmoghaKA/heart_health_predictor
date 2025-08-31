@@ -15,29 +15,55 @@ def submit():
         # gender = request.form["gender"]
         systolic = int(request.form["systolic"])
         diastolic = int(request.form["diastolic"])
-        # cholestrol = request.form["cholestrol"]
-        # smoking = request.form["smoking"]
-        # exercise = request.form["exercise"]
-        # history = request.form["history"]
+        cholestrol = request.form.get("cholestrol")
+        smoking = request.form.get("smoking")
+        exercise = request.form.get("exercise")
+        history = request.form["history"]
         point = 0
         bmi = round(weigth / (heigth*heigth),1)
-        if bmi<18.5 and bmi>=30.0:
+        if bmi<18.5:
             point = point +2
-        elif (bmi >= 18.5 and bmi<=24.9):
+        elif (18.5 <= bmi <= 24.9):
             point = point+15
-        elif (bmi >= 25.0 and bmi<=29.9):
+        elif (25.0 <= bmi <= 29.9):
             point = point+8
-        
+        elif bmi>=30:
+            point = point +2
         
         if (systolic<120 and diastolic<80):
             point = point +25
-        elif ((systolic>=120 and systolic<=139) or (diastolic>=80 and diastolic<=89)):
+        elif ((120<=systolic<=139) or (80<=diastolic<=89)):
             point = point + 15
         elif (systolic>=140 or diastolic>=90):
             point = point + 5
 
+        if(cholestrol == "Normal"):
+            point = point + 15
+        elif(cholestrol == "Borderline High"):
+            point = point + 10
+        elif(cholestrol == "High"):
+            point = point + 5
+
         
-        return render_template("submit.html",heigth=heigth,weigth=weigth,bmi=bmi,point=point)
+        if(smoking == "Yes"):
+            point = point + 0
+        elif(smoking == "No"):
+            point = point + 15
+
+        if(exercise == "Daily"):
+            point = point + 15
+        elif(exercise == "Weekly"):
+            point = point + 10
+        elif(exercise == "Rare" or exercise == "Never"):
+            point = point + 3
+        
+        if(history == "Yes"):
+            point = point + 0
+        elif(history == "No"):
+            point = point + 15
+        max_score = 100
+        percentage = round((point/max_score)*100,1)
+        return render_template("submit.html",heigth=heigth,weigth=weigth,bmi=bmi,point=percentage)
     
 
 if __name__ == "__main__":
