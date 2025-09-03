@@ -1,4 +1,12 @@
 from flask import Flask, render_template,request
+import joblib
+import pandas as pd
+# import numpy as np
+
+model = joblib.load(open("heart_health_model.pkl", "rb"))
+X_columns = joblib.load("X_columns.pkl")  
+
+
 
 app = Flask(__name__)
 
@@ -9,62 +17,40 @@ def home():
 @app.route("/submit", methods=["GET","POST"])  
 def submit():
     if request.method == "POST":
-        heigth = float(request.form["heigth"])
-        weigth = int(request.form["weigth"])
-        # age = int(request.form["age"])
-        # gender = request.form["gender"]
+        height = float(request.form["height"])
+        weight = int(request.form["weight"])
+        age = int(request.form["age"])
+        gender = request.form["gender"]
         systolic = int(request.form["systolic"])
         diastolic = int(request.form["diastolic"])
-        cholestrol = request.form.get("cholestrol")
+        cholesterol = request.form.get("cholesterol")
         smoking = request.form.get("smoking")
         exercise = request.form.get("exercise")
         history = request.form["history"]
-        point = 0
-        bmi = round(weigth / (heigth*heigth),1)
-        if bmi<18.5:
-            point = point +2
-        elif (18.5 <= bmi <= 24.9):
-            point = point+15
-        elif (25.0 <= bmi <= 29.9):
-            point = point+8
-        elif bmi>=30:
-            point = point +2
-        
-        if (systolic<120 and diastolic<80):
-            point = point +25
-        elif ((120<=systolic<=139) or (80<=diastolic<=89)):
-            point = point + 15
-        elif (systolic>=140 or diastolic>=90):
-            point = point + 5
 
-        if(cholestrol == "Normal"):
-            point = point + 15
-        elif(cholestrol == "Borderline High"):
-            point = point + 10
-        elif(cholestrol == "High"):
-            point = point + 5
+        sample = pd.DataFrame([{
+        "age": age,
+        "gender": gender,
+        "height": height,
+        "weight": weight,
+        "systolic": systolic,
+        "diastolic": diastolic,
+        "cholesterol": cholesterol,
+        "smoking": smoking,
+        "exercise": exercise,
+        "family_history": history
+    }])
 
-        
-        if(smoking == "Yes"):
-            point = point + 0
-        elif(smoking == "No"):
-            point = point + 15
-
-        if(exercise == "Daily"):
-            point = point + 15
-        elif(exercise == "Weekly"):
-            point = point + 10
-        elif(exercise == "Rare" or exercise == "Never"):
-            point = point + 3
-        
-        if(history == "Yes"):
-            point = point + 0
-        elif(history == "No"):
-            point = point + 15
-        max_score = 100
-        percentage = round((point/max_score)*100,1)
-        return render_template("submit.html",heigth=heigth,weigth=weigth,bmi=bmi,point=percentage)
     
+    sample_encoded = pd.get_dummies(sample)
+    sample_encoded = sample_encoded.reindex(columns=X_columns, fill_value=0)
+
+    
+    prediction = model.predict(sample_encoded)[0]
+    prediction = round(prediction, 2)
+
+
+    return render_template("submit.html", prediction=prediction)
 
 if __name__ == "__main__":
     app.run(debug=True)

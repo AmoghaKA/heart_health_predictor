@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Heart Health Detector</h1>
-
+    <div class="main">
     <form action="/submit" method="POST">
         <label for="age" class="this">Enter age</label>
         <br>
@@ -17,18 +17,18 @@
         <br>
         <label for="gender" class="this">Enter gender</label>
         <br>
-        <select id="gender" name="box1" class="this" name="gender">
-            <option value="Male">Male</option>
-            <option value="Female">Female</option>
+        <select id="gender" name="gender" class="this">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
         </select>
         <br>
         <br>
-        <label for="heigth" class="this">Enter Height (m)</label>
-        <input type="number" step="any" id="heigth" class="this" name="heigth">
+        <label for="height" class="this">Enter Height (cm)</label>
+        <input type="number" step="any" id="height" class="this" name="height">
         <br>
         <br>
-        <label for="weigth" class="this">Enter Weigth (kg)</label>
-        <input type="number" id="Weigth" class="this" name="weigth">
+        <label for="weight" class="this">Enter Weigth (kg)</label>
+        <input type="number" id="weight" class="this" name="weight">
         <br>
         <br>
         <label for="systolic" class="this">Enter Systolic value</label>
@@ -39,20 +39,20 @@
         <input type="number" id="diastolic" class="this" name="diastolic">
         <br>
         <br>
-        <label for="cholestrol" class="this">Enter cholestrol Level</label>
+        <label for="cholesterol" class="this">Enter cholestrol Level</label>
         <br>
-        <select id="cholestrol" name="cholestrol" class="this">
-            <option value="Normal">Normal</option>
-            <option value="Borderline High">Borderline High</option>
-            <option value="High">High</option>
+        <select id="cholesterol" name="cholesterol" class="this">
+            <option value="normal">Normal</option>
+            <option value="borderline high">Borderline High</option>
+            <option value="high">High</option>
         </select>
         <br>
         <br>
         <label for="smoking" class="this">Smoking Habit</label>
         <br>
         <select id="smoking" name="smoking" class="this">
-            <option value="Yes">Yes</option>
-            <option value="No">No</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
             
         </select>
         <br>
@@ -60,23 +60,25 @@
         <label for="exercise" class="this">Exercise Frequency</label>
         <br>
         <select id="exercise" name="exercise" class="this">
-            <option value="Daily">Daily</option>
-            <option value="Weekly">Weekly</option>
-            <option value="Rare">Rare</option>
-            <option value="Never">Never</option>
+            <option value="daily">Daily</option>
+            <option value="weekly">Weekly</option>
+            <option value="rare">Rare</option>
+            <option value="never">Never</option>
         </select>
         <br>
         <br>
         <label for="history" class="this">Family History of Heart Disease</label>
         <br>
         <select id="history" name="history" class="this">
-            <option value="Yes">Yes</option>
-            <option value="No">No</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
             
         </select>
         <br>
         <br>
         <input type="submit" class="this" value="Submit">
     </form>
+</div>
+
 </body>
 </html>

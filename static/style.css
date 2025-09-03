@@ -1,11 +1,14 @@
 /* this is for index.html */
 
-*{
+/* *{
     margin : 0;
     padding: 0;
 }
 
-
+.main{
+    
+    background-color: aqua;
+}
 
 h1{
     color : green;
@@ -27,4 +30,246 @@ label{
 input{
     height: 30px;
     width: 200px;
+} */
+
+/* General page styling */
+/* body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #6dd5ed, #2193b0);
+    margin: 0;
+    padding: 40px 0; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    min-height: 100vh;
+    color: #333;
 }
+
+
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+
+
+.main {
+    background: white;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    width: 350px;
+    max-width: 90%;
+    animation: fadeIn 1s ease-in-out;
+}
+
+label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+
+input[type="number"], 
+select {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+
+input[type="number"]:focus, 
+select:focus {
+    border-color: #2193b0;
+    outline: none;
+    box-shadow: 0 0 5px rgba(33,147,176,0.5);
+}
+
+input[type="submit"] {
+    background: #2193b0;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background: #176d7a;
+}
+
+/* Animation
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+
+
+/* Import a clean, modern font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+:root {
+    --background-light: #f4f7fc;
+    --text-primary: #334155;
+    --text-secondary: #64748b;
+    --border-color: #cbd5e1;
+    --primary-gradient: linear-gradient(135deg, #60a5fa 0%, #a78bfa 100%);
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    /* --- Elegant multi-color gradient background --- */
+    background: linear-gradient(135deg, #60a5fa, #a78bfa, #f472b6, #34d399);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    color: var(--text-primary);
+    position: relative;
+    overflow-x: hidden;
+}
+
+
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    background: linear-gradient(45deg, #ff6a00, #ff007f, #00c6ff, #7fff00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientShift 5s ease infinite;
+    text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.6);
+    letter-spacing: 2px;
+}
+
+/* Gradient animation */
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+
+
+
+
+.main {
+    width: 480px;
+    max-width: 95%; /* Responsive design */
+    padding: 45px;
+    background-color: #ffffff;
+    border-radius: 24px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 10px 30px -5px rgba(100, 116, 139, 0.1);
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.6s ease forwards;
+}
+
+/* Hide <br> tags for clean CSS-based spacing */
+form br {
+    display: none;
+}
+
+/* --- CORRECTION IS HERE --- */
+/* This style applies ONLY to labels, giving them a clean, text-only look */
+form label.this {
+    display: block;
+    margin-top: 22px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    
+    /* Resetting any unwanted styles */
+    padding: 0;
+    border: none;
+    background: none;
+    box-shadow: none;
+}
+
+/* This style applies ONLY to input and select fields */
+input.this, select.this {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    background-color: #f8fafc;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    color: var(--text-primary);
+    box-sizing: border-box;
+    margin-bottom: 12px;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Focus effect for input and select fields */
+input.this:focus, select.this:focus {
+    outline: none;
+    background-color: #fff;
+    border-color: transparent; /* Hide the solid border */
+    box-shadow: 0 0 0 3px #a78bfa, 0 0 0 5px #60a5fa; /* Create a layered gradient glow */
+}
+
+/* Placeholder text style */
+.this::placeholder {
+    color: #94a3b8;
+}
+
+/* Submit Button Style */
+input[type="submit"].this {
+    font-weight: 600;
+    color: #fff;
+    margin-top: 30px;
+    background: var(--primary-gradient);
+    border: none;
+    box-shadow: 0 4px 15px -2px rgba(96, 165, 250, 0.4);
+    cursor: pointer;
+}
+
+/* Hover & Active states for the button */
+input[type="submit"].this:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 7px 20px -2px rgba(96, 165, 250, 0.5);
+}
+
+input[type="submit"].this:active {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 15px -2px rgba(96, 165, 250, 0.4);
+}
+
+/* Keyframe Animation */
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+

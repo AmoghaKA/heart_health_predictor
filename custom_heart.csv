@@ -1,0 +1,301 @@
+age,gender,height,weight,systolic,diastolic,cholesterol,smoking,exercise,family_history,heart_health_percentage
+63,male,150,91,152,70,high,no,weekly,no,40
+71,female,184,52,124,65,borderline high,yes,daily,no,30
+35,female,152,54,146,63,borderline high,yes,weekly,yes,35
+69,female,184,53,154,70,normal,no,daily,yes,35
+34,male,154,73,118,65,normal,no,rare,yes,65
+24,male,190,52,165,100,high,no,daily,no,55
+76,male,150,84,129,77,normal,no,weekly,yes,40
+52,male,184,60,148,109,borderline high,yes,never,no,15
+53,male,180,94,134,62,borderline high,no,weekly,no,70
+64,male,157,61,135,91,borderline high,no,never,yes,30
+33,male,168,70,153,79,borderline high,no,never,no,55
+64,male,173,56,105,74,normal,yes,never,yes,35
+65,male,185,87,134,85,normal,yes,never,yes,30
+34,female,159,87,107,75,normal,no,rare,yes,65
+49,female,180,97,113,64,high,yes,daily,yes,45
+35,female,174,77,124,87,borderline high,yes,never,yes,30
+64,female,161,77,150,91,high,yes,never,yes,10
+26,male,178,79,162,61,normal,no,weekly,no,80
+33,male,163,85,116,89,normal,yes,weekly,yes,50
+23,female,186,90,113,77,borderline high,yes,weekly,no,65
+61,male,189,60,120,107,high,no,weekly,no,40
+67,female,154,72,159,90,borderline high,yes,rare,no,10
+55,male,154,76,127,83,borderline high,no,rare,yes,40
+20,female,162,72,120,87,high,no,rare,yes,55
+71,male,173,51,158,68,borderline high,no,rare,yes,15
+63,female,163,52,132,82,normal,no,never,no,65
+57,female,176,79,146,77,high,no,daily,yes,40
+56,male,158,81,129,88,normal,no,daily,no,75
+40,female,152,72,114,88,borderline high,yes,weekly,yes,40
+71,male,173,90,112,67,normal,no,daily,yes,50
+48,male,181,65,157,69,high,yes,rare,yes,20
+74,male,159,52,164,104,borderline high,yes,weekly,no,25
+28,female,165,85,104,75,high,no,weekly,yes,50
+38,male,186,91,136,60,borderline high,yes,weekly,no,60
+52,female,168,68,136,94,high,yes,rare,no,25
+51,female,161,51,105,72,normal,no,daily,yes,75
+70,female,152,54,159,80,borderline high,yes,rare,no,20
+70,female,150,90,105,63,borderline high,no,weekly,yes,35
+23,male,152,51,167,86,normal,no,never,yes,50
+29,female,182,60,126,101,borderline high,yes,weekly,yes,25
+37,female,168,83,154,73,high,yes,never,no,25
+58,male,181,79,137,73,borderline high,no,rare,no,65
+68,female,181,75,125,62,high,no,weekly,yes,30
+59,female,173,56,146,82,borderline high,no,never,yes,30
+69,male,186,58,170,69,borderline high,no,daily,no,40
+61,female,177,73,129,85,high,yes,weekly,no,40
+38,male,163,74,104,87,normal,yes,daily,yes,65
+54,female,167,67,113,107,borderline high,no,daily,no,65
+61,male,171,92,113,102,normal,yes,weekly,no,40
+44,male,186,52,143,77,borderline high,no,rare,yes,40
+20,male,182,95,167,102,high,no,never,no,45
+39,female,174,91,155,103,high,yes,weekly,no,30
+23,male,157,92,146,75,normal,no,never,yes,40
+73,female,155,83,109,107,normal,no,weekly,yes,30
+21,female,189,73,159,89,high,no,rare,yes,40
+36,male,184,59,148,68,high,no,daily,no,55
+64,female,159,97,138,66,borderline high,yes,rare,yes,20
+63,female,188,70,129,79,high,yes,never,yes,10
+57,female,190,51,129,93,borderline high,no,never,yes,20
+73,female,180,50,113,68,borderline high,yes,never,yes,10
+35,female,166,53,117,67,high,yes,rare,yes,35
+24,male,172,97,144,61,high,no,rare,yes,30
+21,male,161,73,126,71,high,no,daily,yes,60
+77,female,186,61,101,80,normal,yes,daily,yes,30
+25,female,184,97,121,81,normal,yes,never,yes,40
+30,female,161,53,110,101,high,no,rare,yes,40
+24,female,170,51,114,73,normal,no,never,no,70
+66,male,177,56,138,98,high,yes,rare,yes,10
+25,female,182,50,121,80,borderline high,no,never,no,55
+48,male,189,88,144,71,normal,yes,weekly,no,60
+63,male,177,92,139,96,normal,no,weekly,no,70
+36,male,182,97,145,105,high,yes,never,yes,10
+51,female,153,97,156,98,high,no,weekly,no,40
+35,male,163,99,144,105,borderline high,yes,weekly,no,40
+67,female,167,54,149,101,high,yes,never,no,10
+22,female,150,90,162,104,borderline high,yes,weekly,no,40
+22,female,182,89,143,75,borderline high,no,weekly,no,70
+52,male,152,75,105,107,normal,no,rare,no,55
+35,female,190,94,108,81,normal,yes,never,yes,45
+62,female,174,83,106,89,high,yes,rare,no,40
+79,female,161,60,138,102,borderline high,yes,daily,no,30
+24,female,169,59,162,69,normal,yes,weekly,no,60
+60,male,153,60,161,90,borderline high,no,never,yes,30
+76,female,188,90,110,80,high,no,never,yes,20
+57,female,188,87,107,97,borderline high,no,daily,yes,50
+74,male,180,65,122,103,normal,yes,weekly,yes,20
+30,male,177,92,145,107,normal,no,weekly,yes,65
+79,male,153,67,151,72,normal,no,rare,no,50
+51,female,154,99,169,84,high,yes,rare,no,15
+67,female,171,75,169,79,high,yes,weekly,no,15
+32,male,150,59,116,85,borderline high,no,rare,no,80
+40,male,152,98,165,91,normal,no,daily,yes,60
+53,female,181,98,139,87,high,yes,rare,yes,20
+26,female,168,57,154,92,normal,yes,weekly,no,60
+45,female,187,95,146,87,borderline high,no,weekly,yes,55
+62,male,185,82,152,60,high,yes,weekly,yes,15
+69,female,190,66,124,76,high,yes,never,no,10
+67,male,180,70,126,94,borderline high,yes,daily,no,30
+57,male,155,92,159,100,high,no,rare,no,35
+64,female,159,98,140,71,borderline high,yes,never,no,25
+76,female,190,98,128,66,high,no,daily,no,50
+58,male,176,93,169,88,high,no,rare,no,35
+54,male,161,96,105,69,borderline high,no,never,no,50
+21,male,185,78,122,94,borderline high,yes,rare,yes,30
+35,female,180,89,159,78,borderline high,no,weekly,no,70
+33,female,168,82,148,104,high,yes,rare,no,35
+60,female,186,70,100,87,borderline high,yes,daily,yes,45
+79,male,188,66,130,98,borderline high,yes,never,yes,10
+38,female,158,72,158,105,normal,yes,never,no,45
+25,male,174,73,144,101,high,yes,daily,yes,30
+39,male,155,91,114,85,high,yes,never,no,30
+78,female,167,62,121,85,borderline high,no,daily,no,60
+28,female,157,55,117,97,borderline high,yes,rare,no,45
+44,female,165,67,159,82,high,yes,weekly,no,40
+26,female,162,87,118,88,borderline high,no,never,yes,45
+20,male,172,85,120,82,high,no,weekly,no,75
+76,male,189,75,108,87,borderline high,no,weekly,no,60
+50,male,166,58,127,67,high,no,daily,yes,60
+72,female,176,91,145,77,borderline high,yes,daily,no,30
+54,female,177,100,156,67,borderline high,yes,daily,yes,20
+49,female,150,87,124,107,high,no,weekly,no,50
+22,male,164,83,166,89,borderline high,yes,daily,yes,30
+78,male,151,93,108,100,normal,yes,rare,yes,10
+43,male,173,62,151,70,borderline high,no,never,yes,40
+71,female,172,76,137,72,normal,yes,rare,yes,25
+77,male,154,60,159,108,normal,no,never,yes,25
+24,male,188,83,136,84,borderline high,yes,rare,yes,40
+48,male,188,95,142,99,high,yes,weekly,yes,25
+60,female,153,60,123,87,borderline high,yes,rare,no,45
+42,male,163,87,152,98,high,yes,rare,no,25
+42,male,190,99,125,84,normal,yes,never,no,55
+20,male,167,80,105,101,normal,no,weekly,yes,65
+43,female,185,58,162,60,high,yes,weekly,no,30
+39,male,171,90,107,106,borderline high,no,daily,yes,50
+49,female,176,69,118,74,normal,yes,never,yes,45
+73,female,161,75,137,76,high,no,daily,no,50
+52,male,165,81,143,90,borderline high,yes,never,yes,10
+43,female,180,69,100,67,high,no,weekly,yes,60
+41,female,167,54,107,76,normal,no,rare,yes,75
+63,female,153,73,117,82,normal,no,daily,no,80
+77,male,173,69,107,80,borderline high,no,rare,yes,40
+27,female,154,100,120,73,high,yes,never,no,30
+77,female,186,91,151,68,borderline high,yes,daily,yes,15
+24,male,173,92,102,90,normal,no,daily,no,90
+62,female,166,78,130,98,normal,no,never,yes,40
+40,female,184,64,117,79,high,no,never,no,60
+58,male,164,54,110,107,high,yes,rare,no,25
+70,female,150,82,134,104,normal,yes,rare,yes,10
+77,male,150,94,150,61,borderline high,no,rare,yes,15
+31,female,189,73,153,79,normal,yes,weekly,yes,45
+46,male,168,71,164,83,normal,no,weekly,no,80
+22,male,161,51,120,108,normal,no,daily,no,85
+61,female,190,88,166,68,borderline high,yes,weekly,yes,25
+37,female,175,59,141,73,high,no,daily,yes,50
+56,male,169,87,150,92,normal,no,never,no,45
+40,female,159,77,108,65,borderline high,no,daily,yes,65
+49,male,167,62,165,83,borderline high,yes,daily,yes,40
+56,male,188,68,120,110,borderline high,no,never,yes,30
+40,female,170,97,130,65,high,no,daily,yes,50
+58,male,152,72,106,91,high,no,rare,yes,20
+28,male,160,77,153,98,borderline high,yes,never,yes,10
+69,female,177,96,130,83,high,no,weekly,no,35
+52,male,168,82,128,80,normal,no,weekly,yes,65
+52,female,165,86,150,106,normal,no,never,yes,30
+68,male,177,54,136,103,high,yes,rare,no,10
+41,male,173,63,153,68,high,no,weekly,yes,45
+38,female,173,69,115,89,high,yes,daily,yes,45
+72,male,167,64,162,108,borderline high,yes,never,yes,10
+40,male,181,99,137,74,high,no,rare,yes,40
+47,male,153,77,136,63,normal,yes,never,yes,30
+59,female,154,82,111,72,borderline high,yes,daily,yes,35
+66,female,183,100,131,84,normal,no,never,no,50
+56,male,158,92,102,82,borderline high,yes,daily,yes,35
+56,male,182,83,136,103,high,yes,weekly,yes,15
+39,male,184,95,158,84,borderline high,yes,weekly,yes,35
+25,male,151,77,112,73,borderline high,no,never,no,60
+55,female,177,70,109,82,high,no,daily,yes,55
+27,female,169,100,129,76,normal,yes,rare,no,55
+65,male,180,84,169,96,high,yes,daily,yes,20
+64,male,178,64,148,67,high,no,daily,yes,40
+35,female,190,100,114,106,normal,yes,never,yes,30
+29,male,172,51,140,89,borderline high,no,rare,no,65
+22,male,185,90,141,73,high,no,weekly,no,60
+68,male,152,52,110,65,borderline high,yes,daily,yes,30
+79,male,154,70,143,66,normal,yes,daily,no,40
+38,female,164,76,101,107,normal,no,daily,yes,70
+56,male,155,72,123,62,high,yes,never,no,25
+50,male,189,72,115,99,normal,no,rare,yes,60
+50,female,154,73,145,76,borderline high,no,never,yes,30
+30,male,155,58,169,87,normal,yes,never,no,45
+40,female,153,66,136,110,normal,yes,weekly,yes,45
+68,female,160,99,119,66,borderline high,yes,never,no,15
+71,female,183,68,119,101,normal,no,never,yes,25
+32,female,187,62,104,61,normal,yes,daily,no,70
+50,female,166,66,101,78,borderline high,yes,rare,no,60
+73,female,152,62,169,63,high,yes,daily,no,20
+35,female,168,95,113,76,borderline high,yes,weekly,yes,40
+48,male,160,69,110,85,normal,no,daily,no,100
+35,female,169,91,155,70,normal,no,daily,no,75
+62,female,152,50,166,78,normal,no,weekly,yes,55
+68,male,182,93,142,101,normal,no,daily,no,60
+28,female,180,54,157,64,high,no,daily,no,55
+22,male,151,82,155,88,normal,yes,weekly,no,50
+56,male,162,63,125,93,borderline high,yes,daily,no,45
+64,male,164,80,153,62,borderline high,no,never,yes,30
+44,female,185,82,122,108,normal,yes,daily,no,65
+36,male,173,99,108,106,high,yes,weekly,yes,15
+37,male,164,62,139,70,borderline high,yes,weekly,yes,45
+42,female,175,80,115,67,high,no,weekly,yes,60
+38,female,178,73,153,95,normal,no,never,yes,50
+67,female,188,86,129,84,borderline high,no,weekly,no,55
+32,female,159,75,149,108,normal,yes,daily,yes,50
+27,male,155,63,130,62,normal,yes,weekly,yes,55
+62,male,153,89,155,76,high,no,never,yes,10
+63,male,158,74,117,75,normal,yes,daily,no,70
+24,female,159,75,144,103,high,no,never,no,45
+52,male,185,56,158,99,normal,yes,never,no,25
+31,male,188,92,113,74,borderline high,no,daily,yes,75
+35,male,166,78,139,72,borderline high,no,rare,no,75
+74,female,158,56,127,90,normal,yes,never,no,30
+77,female,183,97,113,62,borderline high,no,never,no,45
+70,female,176,53,137,67,borderline high,yes,daily,yes,15
+62,female,155,61,114,72,high,no,never,yes,35
+73,female,178,94,116,94,normal,yes,never,no,20
+24,female,170,82,118,60,normal,yes,never,yes,45
+74,female,184,58,114,70,high,yes,daily,yes,10
+20,female,155,79,130,89,normal,no,never,yes,50
+30,male,154,57,115,65,normal,yes,rare,yes,55
+75,female,177,87,103,107,borderline high,no,weekly,yes,30
+45,male,158,58,115,84,borderline high,yes,daily,no,70
+24,female,171,81,107,92,high,yes,weekly,yes,25
+56,male,155,61,145,95,borderline high,yes,daily,no,45
+64,male,172,98,152,106,borderline high,yes,rare,yes,10
+43,male,162,85,145,91,normal,yes,daily,yes,40
+30,male,154,56,111,86,high,yes,daily,no,60
+55,male,170,87,114,77,borderline high,yes,rare,yes,25
+35,female,166,99,110,86,normal,yes,rare,yes,45
+27,male,160,98,133,100,normal,no,daily,no,75
+40,female,178,72,114,104,normal,no,never,yes,50
+56,female,177,59,139,110,normal,yes,never,yes,20
+50,male,173,66,116,90,high,yes,daily,yes,45
+58,male,174,86,145,78,normal,yes,weekly,no,50
+52,male,151,69,152,65,high,yes,never,no,10
+59,female,177,62,128,84,high,yes,never,yes,10
+66,male,167,50,113,67,normal,no,daily,yes,50
+59,female,166,98,107,106,high,no,rare,no,35
+71,male,159,55,100,83,borderline high,yes,never,no,25
+77,female,190,67,142,76,high,yes,daily,yes,10
+27,female,173,99,115,70,normal,yes,weekly,yes,50
+22,female,158,88,144,103,high,no,daily,yes,40
+75,male,160,78,160,102,high,no,weekly,yes,10
+80,female,156,65,131,75,normal,no,weekly,no,65
+57,female,171,68,145,95,high,no,weekly,no,50
+72,female,179,56,101,92,borderline high,yes,weekly,no,15
+31,female,178,69,149,94,normal,yes,weekly,yes,45
+80,male,167,78,130,106,borderline high,no,never,no,30
+31,female,177,67,166,63,high,yes,never,no,25
+44,female,179,89,114,72,normal,no,weekly,yes,80
+80,female,167,69,124,109,high,yes,daily,no,20
+73,male,167,81,121,96,high,yes,daily,no,20
+78,male,152,56,135,65,borderline high,no,never,no,40
+40,female,176,89,141,106,high,no,never,yes,30
+77,female,158,74,120,105,high,no,never,no,20
+26,female,167,89,149,70,high,no,rare,yes,30
+35,female,178,91,107,63,normal,yes,daily,no,80
+29,female,187,93,125,88,high,yes,never,yes,20
+25,male,170,91,159,78,high,yes,rare,yes,10
+25,male,160,90,114,83,high,no,rare,yes,45
+46,male,190,83,124,64,normal,yes,rare,no,65
+59,female,190,58,109,98,high,yes,rare,no,15
+74,male,178,69,105,85,high,no,rare,no,45
+72,female,169,74,140,99,high,no,never,no,20
+44,male,166,87,160,107,high,yes,daily,yes,20
+65,female,190,74,122,99,normal,yes,daily,no,55
+22,male,167,54,160,84,borderline high,yes,daily,no,55
+76,female,186,50,133,106,normal,yes,daily,no,30
+51,male,177,84,141,77,high,no,weekly,no,50
+53,male,175,67,121,91,high,yes,rare,yes,10
+73,male,182,72,129,96,normal,yes,weekly,yes,20
+27,male,160,57,152,108,high,no,rare,no,55
+52,female,160,100,150,60,normal,yes,weekly,yes,25
+57,female,152,53,119,66,normal,no,rare,no,80
+74,female,188,71,156,62,borderline high,no,never,yes,15
+26,male,181,68,113,76,borderline high,yes,never,yes,35
+34,female,184,55,151,69,high,yes,weekly,no,30
+64,female,174,61,146,87,high,no,never,no,35
+75,female,182,91,113,90,high,yes,weekly,no,30
+64,male,183,81,128,78,borderline high,yes,daily,no,55
+48,male,156,54,108,98,high,no,weekly,no,60
+31,male,186,57,150,62,normal,yes,weekly,no,50
+29,female,178,89,131,75,normal,yes,rare,yes,50
+34,female,172,52,154,107,high,no,rare,no,45
+24,female,173,57,122,85,high,yes,weekly,yes,35
+40,female,155,95,122,90,normal,yes,rare,no,55
+58,male,168,53,117,101,high,yes,rare,yes,10
+45,male,188,65,136,79,borderline high,yes,weekly,no,50
+59,male,190,90,112,70,borderline high,yes,never,no,40
+65,male,178,74,166,65,high,no,rare,no,45
+68,male,163,71,125,96,normal,no,rare,yes,35
+54,female,157,51,155,90,normal,yes,rare,yes,30
