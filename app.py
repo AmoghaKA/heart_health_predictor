@@ -7,7 +7,6 @@ model = joblib.load(open("heart_health_model.pkl", "rb"))
 X_columns = joblib.load("X_columns.pkl")  
 
 
-
 app = Flask(__name__)
 
 @app.route("/")
