@@ -94,9 +94,9 @@ def submit():
 
 
 
-@app.route("/back")
-def back():
-    return render_template("index.html")
+# @app.route("/back")
+# def back():
+#     return render_template("index.html")
 
 
 
