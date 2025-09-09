@@ -10,7 +10,16 @@
   <div class="card">
     <h1>Prediction Result</h1>
     <p class="result">{{ prediction }}%</p> <!-- Flask/Jinja -->
-    <a href="/templates/index.html" class="btn">Back to Form</a>
+    <a href="/back" class="btn">Back to Form</a>
+    <div class="suggestionbox">
+      <ul>
+        {% for tip in suggestion %}
+          <li>
+            {{tip}}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 </body>
 </html>
