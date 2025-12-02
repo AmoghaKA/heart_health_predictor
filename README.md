@@ -19,7 +19,7 @@ Web Framework	Flask
 UI	HTML, CSS (Templates)
 Others	NumPy, Pandas, Pickle
 
-heart_health_predictor/
+```heart_health_predictor/
 │
 ├── app.py                     # Flask main application for prediction
 ├── train_data.py              # Script to train the ML model
@@ -40,7 +40,7 @@ heart_health_predictor/
 │   └── assets/                # (Optional) images/icons
 │
 └── README.md                  # Project documentation
-
+```
 
 🏃 How to Run Locally
 
