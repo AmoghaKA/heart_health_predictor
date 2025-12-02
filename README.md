@@ -19,19 +19,27 @@ Web Framework	Flask
 UI	HTML, CSS (Templates)
 Others	NumPy, Pandas, Pickle
 
-📁 Project Structure
-
 heart_health_predictor/
 │
-├── app.py                     # Flask web app
-├── train_data.py              # Model training script
-├── generate_data.py           # Data generation script (if applicable)
-├── heart_health_model.pkl     # Trained model
-├── X_columns.pkl              # Encoded feature columns
-├── custom_heart.csv           # Dataset
+├── app.py                     # Flask main application for prediction
+├── train_data.py              # Script to train the ML model
+├── generate_data.py           # (Optional) Script to generate synthetic data
 │
-├── static/                    # CSS / images
-└── templates/                 # HTML pages
+├── heart_health_model.pkl     # Saved trained ML model
+├── X_columns.pkl              # Stored feature columns used during training
+├── custom_heart.csv           # Dataset for training/testing
+│
+├── requirements.txt           # Python dependencies
+│
+├── templates/                 # Frontend HTML files
+│   ├── index.html             # Home / form page
+│   └── result.html            # Prediction result page
+│
+├── static/                    # CSS / assets for UI
+│   ├── style.css              # Styling file
+│   └── assets/                # (Optional) images/icons
+│
+└── README.md                  # Project documentation
 
 🏃 How to Run Locally
 
