@@ -18,8 +18,8 @@ Machine Learning	Scikit-Learn
 Web Framework	Flask
 UI	HTML, CSS (Templates)
 Others	NumPy, Pandas, Pickle
-
-```heart_health_predictor/
+```
+heart_health_predictor/
 │
 ├── app.py                     # Flask main application for prediction
 ├── train_data.py              # Script to train the ML model
