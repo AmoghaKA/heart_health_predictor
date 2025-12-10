@@ -5,10 +5,10 @@ Users can enter health parameters such as age, blood pressure, cholesterol, etc.
 
 🚀 Features
 
-✔ Predicts heart disease risk using trained ML model
-✔ User-friendly web interface
-✔ Real-time prediction based on health inputs
-✔ Model + data preprocessing code included
+✔ Predicts heart disease risk using trained ML model  
+✔ User-friendly web interface  
+✔ Real-time prediction based on health inputs  
+✔ Model + data preprocessing code included  
 ✔ End-to-end pipeline: dataset → model training → deployment
 
 🧠 Tech Stack
